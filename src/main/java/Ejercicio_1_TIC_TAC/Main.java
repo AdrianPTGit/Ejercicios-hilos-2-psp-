@@ -23,14 +23,13 @@ package Ejercicio_1_TIC_TAC;
  */
 public class Main {
     public static void main(String[] args)  {
+
     Tic tic = new Tic();
     Thread hiloTic = new Thread(tic);
-
     hiloTic.start();
 
     Tac tac = new Tac();
     Thread hiloTac= new Thread(tac);
-
     hiloTac.start();
 
         try {
