@@ -20,5 +20,10 @@ public class Main {
         double resultado = operacion1/operacion2;
 
         System.out.println("Resultado: " + resultado);
+
+        Hilo hilo = new Hilo(2,3,"/");
+        hilo.start();
+
+
     }
 }
